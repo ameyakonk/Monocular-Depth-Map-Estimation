@@ -16,11 +16,11 @@ Master's Student at University of Maryland, College Park
 
 ## Model
 ### Unet
-UNet, evolved from the traditional convolutional neural network, was first designed and applied in 2015 to process biomedical images. As a general convolutional neural network focuses its task on image classification, where input is an image and output is one label, but in biomedical cases, it requires us not only to distinguish whether there is a disease, but also to localise the area of abnormality.
+**UNet**, evolved from the traditional convolutional neural network, was first designed and applied in 2015 to process biomedical images. As a general convolutional neural network focuses its task on image classification, where input is an image and output is one label, but in biomedical cases, it requires us not only to distinguish whether there is a disease, but also to localise the area of abnormality.
 ![unet](https://user-images.githubusercontent.com/78075049/226468500-b069cdc4-b6d2-493b-9ff7-b2580d1a67f2.png)
 
 ### Encoder
-The densenet-169 model is used as encoder. It is one of the DenseNet group of models designed to perform image classification. The main difference with the densenet-121 model is the size and accuracy of the model.
+The **Densenet-169** model is used as encoder. It is one of the DenseNet group of models designed to perform image classification. The main difference with the densenet-121 model is the size and accuracy of the model. In the unet, the densenet is pretrained using **imagenet** weights. The final dense layer of the encoder is not used as classification was not the objective of the project.
 ![DenseNet-169](https://user-images.githubusercontent.com/78075049/226468124-afc0e1c2-47bd-4ec0-b79c-53113f1d68f0.png)
 
 ### Decoder 
