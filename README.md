@@ -40,17 +40,13 @@ The decoder used in the unet is constructed by upsampling the outputs w.r.t to t
 The loss function consists of three kind of losses, edge loss, Structural similarity loss and overall depth loss between the predicted image and ground truth image.
 
 ## Dependencies
- Markup : * Anaconda (Optional but recommended)
-          * Python3
-          * Matplotlib
-          * Pandas
-          * PyTorch (1.13.1 is used for development) 
-          * CUDA(optional)
+* Anaconda (Optional but recommended)
+* Python3
+* Matplotlib
+* Pandas
+* PyTorch (1.13.1 is used for development) 
+* CUDA(optional)
 
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
 ## Run instructions
 ### Train model
 '''
