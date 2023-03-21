@@ -15,8 +15,12 @@ UID:118191058
 Master's Student at University of Maryland, College Park
 
 ## Results
-![output1](https://user-images.githubusercontent.com/78075049/226758757-d53e1529-58fe-4ea1-8762-fee2c9fbac3b.png)
-![gt1](https://user-images.githubusercontent.com/78075049/226758776-d5bbff61-68be-4bbf-bceb-a47fcb2d5513.png)
+
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![output1](https://user-images.githubusercontent.com/78075049/226758757-d53e1529-58fe-4ea1-8762-fee2c9fbac3b.png)  |  ![gt1](https://user-images.githubusercontent.com/78075049/226758776-d5bbff61-68be-4bbf-bceb-a47fcb2d5513.png)
+
+
 ![output2](https://user-images.githubusercontent.com/78075049/226758803-a921ac92-1c5d-44e6-ab2e-429644e63413.png)
 ![gt2](https://user-images.githubusercontent.com/78075049/226758833-4cf65616-69f5-4e8f-81dd-87399438b549.png)
 
