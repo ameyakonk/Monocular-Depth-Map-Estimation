@@ -47,6 +47,10 @@ The loss function consists of three kind of losses, edge loss, Structural simila
           * PyTorch (1.13.1 is used for development) 
           * CUDA(optional)
 
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
 ## Run instructions
 ### Train model
 '''
