@@ -35,3 +35,28 @@ The **Densenet-169** model is used as encoder. It is one of the DenseNet group o
 
 ### Decoder 
 The decoder used in the unet is constructed by upsampling the outputs w.r.t to the encoder.
+
+### Loss function
+The loss function consists of three kind of losses, edge loss, Structural similarity loss and overall depth loss between the predicted image and ground truth image.
+
+## Dependencies
+Anaconda (Optional but recommended)
+Python3
+Matplotlib
+Pandas
+PyTorch (1.13.1 is used for development) 
+CUDA(optional)
+
+## Run instructions
+### Train model
+'''
+cd <repository_name>/src
+python3 unet_train.py
+
+### Test model
+'''
+cd <repository_name>/src
+python3 unet_test.py
+
+
+
