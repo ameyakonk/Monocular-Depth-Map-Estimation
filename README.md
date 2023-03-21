@@ -18,8 +18,7 @@ Master's Student at University of Maryland, College Park
 
 Predicted output            | Ground Truth
 :-------------------------:|:-------------------------:
-![output1](https://user-images.githubusercontent.com/78075049/226758757-d53e1529-58fe-4ea1-8762-fee2c9fbac3b.png)  |  ![gt1](https://user-
-images.githubusercontent.com/78075049/226758776-d5bbff61-68be-4bbf-bceb-a47fcb2d5513.png)
+![output1](https://user-images.githubusercontent.com/78075049/226758757-d53e1529-58fe-4ea1-8762-fee2c9fbac3b.png)  |  ![gt1](https://user-images.githubusercontent.com/78075049/226758776-d5bbff61-68be-4bbf-bceb-a47fcb2d5513.png)
 
 Predicted output            | Ground Truth
 :-------------------------:|:-------------------------:
