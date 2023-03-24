@@ -26,7 +26,11 @@ Predicted output            | Ground Truth
 
 ## Model
 ### Unet
-**UNet**, evolved from the traditional convolutional neural network, was first designed and applied in 2015 to process biomedical images. As a general convolutional neural network focuses its task on image classification, where input is an image and output is one label, but in biomedical cases, it requires us not only to distinguish whether there is a disease, but also to localise the area of abnormality.
+The **U-Net** architecture stems from the so-called “fully convolutional network” first proposed by Long, Shelhamer, and Darrell.
+
+The main idea is to supplement a usual contracting network by successive layers, where pooling operations are replaced by upsampling operators. Hence these layers increase the resolution of the output. A successive convolutional layer can then learn to assemble a precise output based on this information.
+
+One important modification in U-Net is that there are a large number of feature channels in the upsampling part, which allow the network to propagate context information to higher resolution layers. As a consequence, the expansive path is more or less symmetric to the contracting part, and yields a u-shaped architecture. The network only uses the valid part of each convolution without any fully connected layers. 
 ![unet](https://user-images.githubusercontent.com/78075049/226468500-b069cdc4-b6d2-493b-9ff7-b2580d1a67f2.png)
 
 ### Encoder
