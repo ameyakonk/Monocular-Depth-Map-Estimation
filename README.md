@@ -56,11 +56,13 @@ The loss function consists of three kind of losses, edge loss, Structural simila
 '''
 cd <repository_name>/src
 python3 unet_train.py
+'''
 
 ### Test model
 '''
 cd <repository_name>/src
 python3 unet_test.py
+'''
 
 
 
